@@ -69,8 +69,8 @@ public class GraphMaker {
             }
         }
 
-        classDot.saveDotFile("class-cfa.dot");
-        methodDot.saveDotFile("method-cfa.dot");
+//        classDot.saveDotFile("class-cfa.dot");
+//        methodDot.saveDotFile("method-cfa.dot");
 
         ArrayList<Graph> res = new ArrayList<>();
         res.add(classCallGraph);
